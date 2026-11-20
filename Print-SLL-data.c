@@ -22,7 +22,6 @@ void print(struct node *head){
 }
 
 
-
 int main(){
     struct node *head = malloc(sizeof(struct node));
     if(head==NULL){
