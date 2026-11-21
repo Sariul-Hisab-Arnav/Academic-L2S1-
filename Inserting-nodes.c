@@ -23,7 +23,9 @@ void print(struct node *head){
 
 
 struct node *addNode(struct node *head,int data){
+
     struct node *temp = malloc(sizeof(struct node));
+
     if(temp==NULL){
         return head;
     }
@@ -33,7 +35,6 @@ struct node *addNode(struct node *head,int data){
     if(head ==NULL){
         return temp;
     }
-
 
     struct node *ptr;
     ptr = head;
